@@ -5,7 +5,7 @@ const mysql = require("mysql");
 app.use(express.json());
 
 //Require the exports module
-const {insertData} = require("./utils/exports");
+const {insertData, createTable} = require("./utils/exports");
 
 
 
